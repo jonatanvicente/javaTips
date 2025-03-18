@@ -1,4 +1,4 @@
-package onetoone.entity;
+package org.javatips.onetoone.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;

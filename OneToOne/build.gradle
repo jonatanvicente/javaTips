@@ -7,7 +7,7 @@ plugins {
 jar {
     manifest {
         attributes(
-                'Main-Class': 'onetoone.App'
+                'Main-Class': 'org.javatips.onetoone.App'
         )
     }
 }
@@ -33,10 +33,10 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-actuator:3.0.6'
     implementation 'org.springframework:spring-context:5.3.13'
     implementation 'org.modelmapper:modelmapper:3.1.1'
-    implementation 'org.springframework.cloud:spring-cloud-starter-consul-config:4.0.2'
-    implementation 'org.springframework.cloud:spring-cloud-starter-consul-discovery:4.0.2'
     implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap:4.0.2'
     implementation 'org.zeromq:jeromq:0.5.4'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.6.1'
+    implementation 'org.springframework.boot:spring-boot-autoconfigure:2.6.1'
 
     implementation 'commons-io:commons-io:2.11.0'
     implementation 'commons-validator:commons-validator:1.7'

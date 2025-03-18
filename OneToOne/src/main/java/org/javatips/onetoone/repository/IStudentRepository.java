@@ -1,6 +1,6 @@
-package onetoone.repository;
+package org.javatips.onetoone.repository;
 
-import onetoone.entity.Student;
+import org.javatips.onetoone.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package itacademy.lambdas;
+package org.javatips.lambdas;
 import java.util.*;
 import static java.util.Comparator.comparing;
 

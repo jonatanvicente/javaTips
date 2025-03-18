@@ -1,6 +1,6 @@
-package onetoone.service;
+package org.javatips.onetoone.service;
 
-import onetoone.entity.Student;
+import org.javatips.onetoone.entity.Student;
 
 import java.util.List;
 import java.util.Optional;

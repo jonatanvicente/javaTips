@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 
 public class Main {
 
-    private static String className = "itacademy.reflection.SampleClass";
+    private static String className = "org.javatips.reflection.SampleClass";
 
     public static void main(String[] args) {
 

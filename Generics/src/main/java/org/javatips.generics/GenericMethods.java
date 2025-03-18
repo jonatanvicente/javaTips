@@ -1,5 +1,5 @@
 
-package org.generics;
+package org.javatips.generics;
 
 public class GenericMethods {
 

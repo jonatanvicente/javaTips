@@ -1,7 +1,7 @@
-package onetoone.service;
+package org.javatips.onetoone.service;
 
-import onetoone.entity.Student;
-import onetoone.repository.IStudentRepository;
+import org.javatips.onetoone.entity.Student;
+import org.javatips.onetoone.repository.IStudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

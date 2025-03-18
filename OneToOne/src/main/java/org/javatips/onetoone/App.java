@@ -1,4 +1,4 @@
-package onetoone;
+package org.javatips.onetoone;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
