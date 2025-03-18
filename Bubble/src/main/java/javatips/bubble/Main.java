@@ -1,4 +1,4 @@
-package itacademy.bubble;
+package javatips.bubble;
 
 import java.util.Arrays;
 import java.util.Collections;
