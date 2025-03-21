@@ -12,6 +12,7 @@ include 'RegExp'
 include 'OneToOne'
 include 'Optional'
 include 'JacksonMapper'
-include 'Static'
 include 'Generics'
+include 'FunctionalInterface'
+include 'Varargs'
 

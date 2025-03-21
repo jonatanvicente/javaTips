@@ -12,6 +12,10 @@ jar {
     }
 }
 
+group = 'org.javatips.onetoone'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
 repositories {
     mavenCentral()
 }
@@ -22,9 +26,11 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.30'
     testCompileOnly 'org.projectlombok:lombok:1.18.30'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+    implementation 'com.h2database:h2:2.3.232'
+
+
 
     implementation 'org.springframework.boot:spring-boot-autoconfigure:3.0.6'
-    implementation 'org.springframework.cloud:spring-cloud-commons:4.0.1'
     implementation 'org.springframework.boot:spring-boot-starter-web:3.0.6'
     implementation 'org.springframework.boot:spring-boot-starter-webflux:3.0.6'
     implementation 'org.apache.commons:commons-lang3:3.12.0'
@@ -45,10 +51,6 @@ dependencies {
     implementation 'org.slf4j:slf4j-api:1.7.32'
     implementation 'org.slf4j:slf4j-simple:1.7.32'
 
-    implementation "io.mongock:mongock:5.0.32"
-    implementation "io.mongock:mongock-springboot-v3:5.2.4"
-    implementation "io.mongock:mongodb-reactive-driver:5.2.4"
-
     testImplementation 'org.springframework.boot:spring-boot-starter-test:3.0.6'
     testImplementation 'org.springframework:spring-test:5.3.13'
     testImplementation 'org.junit.jupiter:junit-jupiter'
@@ -56,11 +58,7 @@ dependencies {
     testImplementation 'org.hamcrest:hamcrest:2.2'
     testImplementation 'org.assertj:assertj-core:3.24.2'
     testImplementation 'io.projectreactor:reactor-test:3.1.0.RELEASE'
-    testImplementation 'org.testcontainers:mongodb:1.17.6'
-    testImplementation 'org.testcontainers:junit-jupiter:1.17.6'
-    testImplementation 'com.squareup.okhttp3:mockwebserver:4.9.3'
     testImplementation 'org.junit.platform:junit-platform-suite-engine:1.8.1'
-    testImplementation group: 'io.github.hakky54', name: 'logcaptor', version: '2.9.3'
 }
 
 test {

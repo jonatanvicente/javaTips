@@ -1,7 +1,7 @@
 INSERT INTO student (first_name, last_name) VALUES
 ('Bill', 'Gates'),
 ('Rafa', 'Nadal'),
-('Angela', 'Merckel');
+('Angela', 'Merkel');
 
 INSERT INTO tuition (fee, student_id) VALUES
 (100000, 1),
