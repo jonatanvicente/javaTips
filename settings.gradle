@@ -21,4 +21,5 @@ include 'AdapterPattern'
 include 'BuilderPattern'
 include 'ObserverPattern'
 include 'FactoryMethodPattern'
+include 'MethodReferences'
 
